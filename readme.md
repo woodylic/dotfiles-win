@@ -48,3 +48,19 @@ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt -qq install nodejs
 sudo apt -qq install npm
 ```
+
+### kubectl
+
+Download file https://storage.googleapis.com/kubernetes-release/release/v1.10.0/bin/linux/amd64/kubectl
+
+Make the cubectl binary executable.
+
+```bash
+chmod +x ./kubectl
+```
+
+Move the binary in your PATH
+
+```bash
+sudo mv ./kubectl /usr/local/bin/kubectl
+```

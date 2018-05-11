@@ -92,3 +92,4 @@ alias gaa='git add --all'
 alias gc='git commit -m'
 alias gph='git push'
 alias gpl='git pull'
+

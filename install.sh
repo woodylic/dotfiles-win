@@ -3,14 +3,8 @@ echo "Install start..."
 git pull
 echo "✔ dotfiles are up to date"
 
-cp $(pwd)/etc/apt/sources.list /etc/apt/sources.list
-echo "✔ switch to 163 source"
-
 sudo apt -qq update
 echo "✔ apt update done!"
-
-sudo apt -qq upgrade
-echo "✔ apt upgrade done!"
 
 sudo apt -qq install zsh
 echo "✔ zsh is installed"

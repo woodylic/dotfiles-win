@@ -18,6 +18,8 @@ echo "✔ oh-my-zsh is installed"
 mkdir -p ~/.oh-my-zsh && mkdir -p ~/.oh-my-zsh/themes
 # ln -sf $(pwd)/oh-my-zsh/themes/lambda_robbyrussell.zsh-theme ~/.oh-my-zsh/themes/lambda_robbyrussell.zsh-theme
 # ln -sf $(pwd)/oh-my-zsh/themes/emoji_robbyrussell.zsh-theme ~/.oh-my-zsh/themes/emoji_robbyrussell.zsh-theme
+mkdir -p ~/.oh-my-zsh && mkdir -p ~/.oh-my-zsh/custom && mkdir -p ~/.oh-my-zsh/custom/plugins
+mkdir -p ~/.oh-my-zsh/custom/plugins/incr
 ln -sf $(pwd)/oh-my-zsh/custom/plugins/incr/incr_0.2.zsh ~/.oh-my-zsh/custom/plugins/incr/incr_0.2.zsh
 echo "✔ oh my zsh configured!"
 

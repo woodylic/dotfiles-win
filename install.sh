@@ -29,9 +29,9 @@ echo "✔ .zshrc symlinked"
 ln -sf $(pwd)/gitconfig ~/.gitconfig
 echo "✔ .gitconfig symlinked"
 
-mkdir -p ~/.bin
-ln -sf /mnt/c/Program\ Files/Microsoft\ VS\ Code/code.exe ~/.bin/code
-echo "✔ alias for windows programs"
+# mkdir -p ~/.bin
+# ln -sf /mnt/c/Program\ Files/Microsoft\ VS\ Code/code.exe ~/.bin/code
+# echo "✔ alias for windows programs"
 
 mkdir -p ~/.scripts
 ln -sf $(pwd)/scripts ~/.scripts
@@ -60,4 +60,3 @@ echo "✔ alias for windows folders"
 
 # sudo apt -qq install caca-utils ranger cowsay fortune screenfetch lolcat figlet sl cmatrix
 # echo "✔ other cool stuff installed"
-

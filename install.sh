@@ -3,8 +3,14 @@ echo "Install start..."
 git pull
 echo "✔ dotfiles are up to date"
 
+cp $(pwd)/etc/apt/sources.list /etc/apt/sources.list
+echo "✔ switch to aliyun source"
+
 sudo apt -qq update
 echo "✔ apt update done!"
+
+sudo apt -qq upgrade
+echo "✔ apt upgrade done!"
 
 sudo apt -qq install zsh
 echo "✔ zsh is installed"
@@ -35,6 +41,7 @@ echo "✔ .gitconfig symlinked"
 
 mkdir -p ~/.scripts
 ln -sf $(pwd)/scripts ~/.scripts
+echo "✔ scripts symlinked"
 
 rm -f ~/c
 ln -sf /mnt/c ~/c
@@ -51,12 +58,3 @@ ln -sf /mnt/c/Users/woody.lee/.ssh ~/.ssh
 rm -f ~/.m2
 ln -sf /mnt/c/Users/woody.lee/.ssh ~/.m2
 echo "✔ alias for windows folders"
-
-# curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-# sudo apt -qq install nodejs
-# sudo apt -qq install npm
-# sudo apt -qq install python3-pip
-# echo "✔ apt dev tools installed"
-
-# sudo apt -qq install caca-utils ranger cowsay fortune screenfetch lolcat figlet sl cmatrix
-# echo "✔ other cool stuff installed"

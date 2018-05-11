@@ -55,6 +55,7 @@ ZSH_THEME="bureau"
 plugins=(git extract docker)
 
 source $ZSH/oh-my-zsh.sh
+source $ZSH/custom/plugins/incr/incr*.zsh
 
 # User configuration
 

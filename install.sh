@@ -52,6 +52,7 @@ rm -f ~/.m2
 ln -sf /mnt/c/Users/woody.lee/.ssh ~/.m2
 echo "✔ alias for windows folders"
 
+<<<<<<< HEAD
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt -qq install nodejs
 sudo apt -qq install npm
@@ -61,3 +62,13 @@ echo "✔ apt dev tools installed"
 # sudo apt -qq install caca-utils ranger cowsay fortune screenfetch lolcat figlet sl cmatrix
 # echo "✔ other cool stuff installed"
 
+=======
+# curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+# sudo apt -qq install nodejs
+# sudo apt -qq install npm
+# sudo apt -qq install python3-pip
+# echo "✔ apt dev tools installed"
+
+# sudo apt -qq install caca-utils ranger cowsay fortune screenfetch lolcat figlet sl cmatrix
+# echo "✔ other cool stuff installed"
+>>>>>>> 86ecf5a872e95297e2c3323dd89bda981dd5ea84

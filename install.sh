@@ -4,7 +4,7 @@ git pull
 echo "✔ dotfiles are up to date"
 
 cp $(pwd)/etc/apt/sources.list /etc/apt/sources.list
-echo "✔ switch to aliyun source"
+echo "✔ switch to 163 source"
 
 sudo apt -qq update
 echo "✔ apt update done!"
@@ -53,8 +53,6 @@ rm -f ~/lab
 ln -sf /mnt/c/Users/woody.lee/Lab ~/lab
 rm -f ~/.aws
 ln -sf /mnt/c/Users/woody.lee/.aws ~/.aws
-rm -f ~/.ssh
-ln -sf /mnt/c/Users/woody.lee/.ssh ~/.ssh
 rm -f ~/.m2
 ln -sf /mnt/c/Users/woody.lee/.ssh ~/.m2
 echo "✔ alias for windows folders"

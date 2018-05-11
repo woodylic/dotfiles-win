@@ -49,4 +49,6 @@ rm -f ~/.aws
 ln -sf /mnt/c/Users/woody.lee/.aws ~/.aws
 rm -f ~/.m2
 ln -sf /mnt/c/Users/woody.lee/.ssh ~/.m2
+rm -f ~/.kube
+ln -sf /mnt/c/Users/woody.lee/.kube ~/.kube
 echo "✔ alias for windows folders"

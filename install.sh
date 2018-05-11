@@ -1,8 +1,5 @@
 echo "Install start..."
 
-git pull
-echo "✔ dotfiles are up to date"
-
 sudo apt -qq update
 echo "✔ apt update done!"
 

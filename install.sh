@@ -30,9 +30,9 @@ echo "✔ .zshrc symlinked"
 ln -sf $(pwd)/gitconfig ~/.gitconfig
 echo "✔ .gitconfig symlinked"
 
-# mkdir -p ~/.bin
-# ln -sf /mnt/c/Program\ Files/Microsoft\ VS\ Code/code.exe ~/.bin/code
-# echo "✔ alias for windows programs"
+mkdir -p ~/.bin
+ln -sf /mnt/c/Program\ Files/Microsoft\ VS\ Code/code.exe ~/.bin/code
+echo "✔ alias for windows programs"
 
 mkdir -p ~/.scripts
 ln -sf $(pwd)/scripts ~/.scripts

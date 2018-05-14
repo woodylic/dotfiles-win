@@ -52,7 +52,7 @@ ZSH_THEME="pygmalion"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump zsh-autosuggestions extract docker docker-compose kubectl gradle node npm zsh-syntax-highlighting)
+plugins=(git autojump zsh-autosuggestions extract docker docker-compose kubectl gradle zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 # source $ZSH/custom/plugins/incr/incr*.zsh

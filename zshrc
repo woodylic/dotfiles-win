@@ -52,12 +52,13 @@ ZSH_THEME="pygmalion"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions docker docker-compose kubectl gradle)
+plugins=(git autojump zsh-autosuggestions docker docker-compose kubectl gradle)
 
 source $ZSH/oh-my-zsh.sh
 # source $ZSH/custom/plugins/incr/incr*.zsh
 
 # User configuration
+unsetopt BG_NICE
 
 # export MANPATH="/usr/local/man:$MANPATH"
 export DOCKER_HOST=tcp://localhost:2375

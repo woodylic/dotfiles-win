@@ -13,15 +13,15 @@ echo "✔ zsh as default shell"
 [ -d ~/.oh-my-zsh ] || git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 [ -d ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting ] || git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 [ -d ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions ] || git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+[ -d ~/.oh-my-zsh/custom/plugins/zsh-completions ] || git clone https://github.com/zsh-users/zsh-completions.git ~/.oh-my-zsh/custom/plugins/zsh-completions
 echo "✔ oh-my-zsh is installed"
 
 # synlink oh-my-zsh theme
 mkdir -p ~/.oh-my-zsh && mkdir -p ~/.oh-my-zsh/themes
 # ln -sf $(pwd)/oh-my-zsh/themes/lambda_robbyrussell.zsh-theme ~/.oh-my-zsh/themes/lambda_robbyrussell.zsh-theme
-# ln -sf $(pwd)/oh-my-zsh/themes/emoji_robbyrussell.zsh-theme ~/.oh-my-zsh/themes/emoji_robbyrussell.zsh-theme
 mkdir -p ~/.oh-my-zsh && mkdir -p ~/.oh-my-zsh/custom && mkdir -p ~/.oh-my-zsh/custom/plugins
 mkdir -p ~/.oh-my-zsh/custom/plugins/incr
-cp $(pwd)/oh-my-zsh/custom/plugins/incr/incr_0.2.zsh ~/.oh-my-zsh/custom/plugins/incr/incr_0.2.zsh
+cp $(pwd)/oh-my-zsh/custom/plugins/incr/incr-0.2.zsh ~/.oh-my-zsh/custom/plugins/incr/incr-0.2.zsh
 echo "✔ oh my zsh configured!"
 
 ln -sf $(pwd)/zshrc ~/.zshrc

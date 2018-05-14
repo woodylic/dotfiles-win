@@ -52,7 +52,7 @@ ZSH_THEME="pygmalion"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump zsh-autosuggestions docker docker-compose kubectl gradle)
+plugins=(git autojump zsh-autosuggestions docker docker-compose kubectl gradle zsh-completions)
 
 source $ZSH/oh-my-zsh.sh
 # source $ZSH/custom/plugins/incr/incr*.zsh
@@ -92,5 +92,6 @@ alias gs='git status'
 alias ga='git add'
 alias gaa='git add --all'
 alias gc='git commit -m'
+alias gac='git commit -am'
 alias gph='git push'
 alias gpl='git pull'

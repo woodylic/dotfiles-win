@@ -30,9 +30,9 @@ echo "✔ .zshrc symlinked"
 ln -sf $(pwd)/gitconfig ~/.gitconfig
 echo "✔ .gitconfig symlinked"
 
-# mkdir -p ~/.bin
+mkdir -p ~/.bin
 # ln -sf /mnt/c/Program\ Files/Microsoft\ VS\ Code/code.exe ~/.bin/code
-# echo "✔ alias for windows programs"
+echo "✔ alias for windows programs"
 
 mkdir -p ~/.scripts
 ln -sf $(pwd)/scripts ~/.scripts
@@ -49,7 +49,9 @@ ln -sf /mnt/c/Users/woody.lee/Lab ~/lab
 rm -f ~/.aws
 ln -sf /mnt/c/Users/woody.lee/.aws ~/.aws
 rm -f ~/.m2
-ln -sf /mnt/c/Users/woody.lee/.ssh ~/.m2
+ln -sf /mnt/c/Users/woody.lee/.m2 ~/.m2
+rm -f ~/.gradle
+ln -sf /mnt/c/Users/woody.lee/.gradle ~/.gradle
 rm -f ~/.kube
 ln -sf /mnt/c/Users/woody.lee/.kube ~/.kube
 echo "✔ alias for windows folders"

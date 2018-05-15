@@ -38,6 +38,10 @@ mkdir -p ~/.scripts
 ln -sf $(pwd)/scripts ~/.scripts
 echo "✔ scripts symlinked"
 
+mkdir -p ~/.tools
+ln -sf /mnt/c/ProgramData/chocolatey/lib/gradle/tools/gradle-4.7 ~/.tools/gradle
+echo "✔ gradle symlinked"
+
 rm -f ~/c
 ln -sf /mnt/c ~/c
 rm -f ~/downloads

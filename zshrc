@@ -62,6 +62,8 @@ unsetopt BG_NICE
 
 # export MANPATH="/usr/local/man:$MANPATH"
 export DOCKER_HOST=tcp://localhost:2375
+export GRADLE_HOME=/home/woody.lee/.tools/gradle
+export PATH=$PATH:$GRADLE_HOME/bin
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8

@@ -61,9 +61,11 @@ source $ZSH/oh-my-zsh.sh
 unsetopt BG_NICE
 
 # export MANPATH="/usr/local/man:$MANPATH"
-export DOCKER_HOST=tcp://localhost:2375
 export GRADLE_HOME=/home/woody.lee/.tools/gradle
 export PATH=$PATH:$GRADLE_HOME/bin
+export KUBERNETES_MASTER=https://172.28.128.4:8443
+export DOCKER_HOST=tcp://vagrant.f8:2375
+export DOCKER_API_VERSION=1.24
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8

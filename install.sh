@@ -50,6 +50,8 @@ rm -f ~/workspace
 ln -sf /mnt/c/Users/woody.lee/Workspace ~/workspace
 rm -f ~/lab
 ln -sf /mnt/c/Users/woody.lee/Lab ~/lab
+rm -f ~/tools
+ln -sf /mnt/c/DevTools ~/tools
 rm -f ~/.aws
 ln -sf /mnt/c/Users/woody.lee/.aws ~/.aws
 rm -f ~/.m2
